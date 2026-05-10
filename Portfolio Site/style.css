@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+#wrapper {
+    margin: 2em auto;
+    padding: 0;
+    width: 1200px;
+    border: 5px solid rgb(59, 57, 57);
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+header {
+    grid-column: span 3;
+    background-image: linear-gradient(to bottom, #8500ff, #6901cc, #4f019b, #36016d, #1f0042);
+    border-bottom: 5px solid rgb(59, 57, 57);
+    
+}
+h1 {
+    font-weight: normal;
+    font-family: 'Nova Square';
+    color: white;
+    text-align: center;
+}
+
+nav {
+    grid-column: span 9;
+    background-image: linear-gradient(to bottom, #8500ff, #6901cc, #4f019b, #36016d, #1f0042);
+    border-left: 5px solid rgb(59, 57, 57);
+    font-family: 'Nova Square';
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+nav li a {
+    display: block;
+    background-image: linear-gradient(to bottom, #8500ff, #6901cc, #4f019b, #36016d, #1f0042);
+    border-bottom: 5px solid rgb(59, 57, 57);
+    border-right: 5px solid rgb(59, 57, 57);
+    border-left: 5px solid rgb(59, 57, 57);
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 5px 5px black;
+    transition: background-image 10.0s, width 2.0s, color 2.0s;
+}
+nav li a:hover {
+    background-image: linear-gradient(to bottom, #2600ff, #2a01cc, #1d019b, #17016d, #120042);
+} 
+main {
+    background-color: rgb(0, 0, 199);
+    grid-column: span 9;
+    font-family: 'Nova Square';
+}
+main p {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    font-size:larger;
+    background-color: #120042;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+main img {
+    grid-column: span 3;
+    height: 375px;
+    float: left;
+    margin: 20px;
+    border: 5px solid rgb(59, 57, 57);
+    
+}
+.Gundam {
+    grid-column: span 3;
+    height: 346px;
+    float: left;
+    margin: 20px;
+    border: 5px solid rgb(59, 57, 57);
+    margin-top: 50px;
+}
+.art {
+    grid-column: span 3;
+    height: 350px;
+    float: left;
+    margin: 20px;
+    border: 5px solid rgb(59, 57, 57); 
+}
+.about {
+    grid-column: span 3;
+    height: 265px;
+    float: left;
+    margin: 20px;
+    border: 5px solid rgb(59, 57, 57); 
+}
+.about2 {
+    grid-column: span 3;
+    height: 240px;
+    float: left;
+    margin: 20px;
+    border: 5px solid rgb(59, 57, 57); 
+}
+aside {
+    grid-column: span 3;
+    background-color: #120042;
+    font-family: 'Nova Square';
+}
+aside a {
+    grid-column: span 3;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px;
+}
+aside a:hover {
+    background-color: #6901cc;
+}
+aside img {
+    grid-column: span 3;
+    width: 250px;
+    margin-left: 20px;
+    border: 5px solid rgb(59, 57, 57);
+}
+aside p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+}
+aside h2{
+    text-align: center;
+    color: white;
+}
+audio {
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
